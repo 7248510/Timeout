@@ -39,7 +39,7 @@ int main(void) {
     if (printf("2 hours in seconds is %d", returnCalulation) < 0) {
         return EXIT_FAILURE;
     }
-    if (printf("\nSystem is shutting down in: %d", returnCalulation) > 0) {
+    if (printf("\nSystem is shutting down in: %d", returnCalulation) < 0) {
         return 1;
     }
     if (winShutdown(returnCalulation) > 0) {
