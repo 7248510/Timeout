@@ -1,4 +1,5 @@
 #pragma comment(lib, "ADVAPI32")
+#pragma comment(lib, "USER32")
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h> 
