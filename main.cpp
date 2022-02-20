@@ -5,9 +5,8 @@ int main() {
     hello.printWelcome();
 
     timeConversion instance;
+    instance.setValue(1);
     instance.convert();
-
-
 
     return 0;
 }
