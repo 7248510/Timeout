@@ -17,3 +17,4 @@ A DWORD is an unsigned 32 bit integer"(W10 System Programming)<br>[Windows Libra
  * Windows security tokens
  * Windows libraries
  * [Example](https://docs.microsoft.com/en-us/windows/win32/shutdown/how-to-shut-down-the-system)
+ * C++ 20's Spaceship operator, Cmake and toolchains.
