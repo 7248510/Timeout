@@ -7,6 +7,6 @@ int main() {
     timeConversion instance;
     instance.setValue(1);
     instance.convert();
-
+    instance.shutdown();
     return 0;
 }
