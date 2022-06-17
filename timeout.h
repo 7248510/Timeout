@@ -12,7 +12,7 @@
 #define WIN32_LEAN_AND_MEAN //Define WIN32_LEAN_AND_MEAN to exclude APIs such as Cryptography, DDE, RPC, Shell, and Windows Sockets.
 #include <stdbool.h>
 //These are currently broken in cmake; the file is not configured
-//This should compile on MSVC
+//This will compile on MSVC
 #pragma comment(lib, "ADVAPI32")
 #pragma comment(lib, "USER32")
 
